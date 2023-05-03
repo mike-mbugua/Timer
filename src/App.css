@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #e7e52a;
+  --secondary-color: #e7e52a;
+  --text-color: #131416;
+  --font-name: "Montserrat", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-name);
+}
+.primary__btn {
+  background: var(--text-color) !important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding: 0.3rem 1.5rem !important;
+  font-size: 1.5rem;
+  color: white !important;
+  font-weight: 300;
+  margin-right: 20px;
+}
